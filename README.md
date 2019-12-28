@@ -15,7 +15,7 @@ keys). Use the Spotify scripts to add queuing shortcuts.
   * add song under mouse cursor to queue: ^Q
   * remove song under mouse cursor from queue: ^A
 * MediaKeysPlusSpotify.ahk
-  * two scripts above combines
+  * two scripts above combined
 
 # Versions
 * v1. Initial release.
