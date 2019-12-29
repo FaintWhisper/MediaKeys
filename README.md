@@ -3,6 +3,7 @@
 MediaKeys is an AutoHotkey script that creates some useful media key shortcuts (they work regardless of the presence of built-in media keys) and some queuing hotkeys for Spotify.
 
 # Syntax
+
 * MediaKeys takes either no arguments or exactly 4:
   * Arg 1
     * a string which determines the operation mode
@@ -14,9 +15,17 @@ MediaKeys is an AutoHotkey script that creates some useful media key shortcuts (
     * default: 0
   * Arg 3
     * an integer for the post-click delay, i.e., how long AutoHotKey sleeps after the right mouse. You might need to increase this if the Spotify hotkeys are not working correcly.
+    * values: 0 or greater
+    * default: 150
   * Arg 4
     * an integer for step size, i.e., the amount delay changes when you use the delay hotkeys
+    * values: 0 or greater
+    * default: 10
   * When called with no arguments, defaults are used.
+
+# Notes
+
+  * If you want MediaKeys to start automatically when you log in, add a shortcut to the Windows Startup folder. You can pass arguments by adding them to the end of Target in Properties.
 
 # Hotkeys
 
@@ -35,6 +44,7 @@ MediaKeys is an AutoHotkey script that creates some useful media key shortcuts (
   * increase/decrease PreClickDelay: ^S/^+S *Control+S/Control+Shift+S*
 
 # Changelog
+
 * v1. Initial release.
 * v2. Consolidated to a single script/executable. Added ability to adjust PreClickDelay, PostClickDelay and Step with hotkeys. Updated documentation.
 
