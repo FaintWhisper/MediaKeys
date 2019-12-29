@@ -1,5 +1,5 @@
 ; Copyright 2019 WeedRapist
-; Spotify.ahk is licensed under the terms of the MIT License. See LICENSE.txt for more information.
+; Spotify.ahk is licensed under the terms of the MIT License. See LICENSE for more information.
 ;
 ; THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
 ; TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
