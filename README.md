@@ -4,16 +4,16 @@ Some AutoHotkey scripts for user media key shortcuts (they work regardless of th
 keys). Use the Spotify scripts to add queuing shortcuts.
 
 * MediaKeys.ahk
-  * previous: ^[
-  * next: ^]
-  * play/pause: ^\
-  * volume down: ^;
-  * volume mute: ^+;
-  * volume up: ^'
+  * previous: ^[, Control+LeftSquareBracket
+  * next: ^], Control+RightSquareBracket
+  * play/pause: ^\, Control+Backslash
+  * volume down: ^;, Control+Semicolon
+  * volume mute: ^+;, Control+Shift+Semicolon
+  * volume up: ^', Control+RightApostrophe
 * Spotify.ahk
   * only work when Spotify is active window
-  * add song under mouse cursor to queue: ^Q
-  * remove song under mouse cursor from queue: ^A
+  * add song under mouse cursor to queue: ^Q, Control+Q
+  * remove song under mouse cursor from queue: ^A, Control+A
 * MediaKeysPlusSpotify.ahk
   * two scripts above combined
 
