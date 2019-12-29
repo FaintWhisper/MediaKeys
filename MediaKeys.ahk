@@ -28,7 +28,6 @@ SetDefaults()
     PreClickDelay := A_Args[2]
     PostClickDelay := A_Args[3]
     Step := A_Args[4]
-    ListVars
     return
  }
 

@@ -34,9 +34,9 @@ MediaKeys is an AutoHotkey script that creates some useful media key shortcuts (
   * increase/decrease PostClickDelay: ^W/^+W *Control+W/Control+Shift+W*
   * increase/decrease PreClickDelay: ^S/^+S *Control+S/Control+Shift+S*
 
-# Versions
+# Changelog
 * v1. Initial release.
-* v2. Consolidated to a single script/executable. Added ability to adjust PreClickDelay, PostClickDelay and Step with hotkeys.
+* v2. Consolidated to a single script/executable. Added ability to adjust PreClickDelay, PostClickDelay and Step with hotkeys. Updated documentation.
 
 # License
 
