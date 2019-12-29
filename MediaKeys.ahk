@@ -104,7 +104,7 @@ Sub_PreClickDelay()
 DisplayDelayValues()
 {
     global PreClickDelay, PostClickDelay
-    MsgBox, 64,Delay, PreClickDelay %PreClickDelay% PostClickDelay %PostClickDelay%, 1
+    MsgBox, , Delay, PreClickDelay %PreClickDelay% PostClickDelay %PostClickDelay%, 1
 }
 
 #If UseSpotify == true and WinActive("ahk_exe Spotify.exe")
