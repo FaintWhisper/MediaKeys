@@ -132,9 +132,9 @@ return
 ;adds song under mouse cursor to queue when Control+Q is pressed
 ^Q::
 BlockInput, On
-Sleep 10
+Sleep, PreClickDelay
 Click, Right
-Sleep, 250
+Sleep, PostClickDelay
 Send, {Down}
 Send, {Enter}
 BlockInput, Off
@@ -143,9 +143,9 @@ return
 ;Spotify: removes song under mouse cursor to queue when Control+A is pressed
 ^A::
 BlockInput, On
-Sleep 10
+Sleep, PreClickDelay
 Click, Right
-Sleep, 250
+Sleep, PostClickDelay
 Send, {Up}
 Send, {Up}
 Send, {Enter}
