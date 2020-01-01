@@ -21,7 +21,13 @@ MediaKeys is an AutoHotkey script that creates some useful media key shortcuts (
     * an integer for step size, i.e., the amount delay changes when you use the delay hotkeys
     * values: 0 or greater
     * default: 10
-  * When called with no arguments, defaults are used.
+  * Examples:
+    * "MediaKeys.exe"
+      * global media hotkeys, local queuing hotkeys for Spotify (default params)
+    * "MediaKeys.exe Spotify 0 150 10"
+      * NO global media hotkeys, local queuing hotkeys for Spotify (PreClickDelay=0, PostClickDelay=150, Step=10)
+    * "MediaKeys.exe MediaKeysSpotify 5 100 10"
+      * global media hotkeys, local queuing hotkeys for Spotify (PreClickDelay=5, PostClickDelay=100, Step=10)
 
 # Notes
 
