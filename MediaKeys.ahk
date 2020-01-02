@@ -140,7 +140,7 @@ Send, {Enter}
 BlockInput, Off
 return
 
-;Spotify: removes song under mouse cursor to queue when Control+A is pressed
+;Spotify: removes song under mouse cursor from queue when Control+A is pressed
 ^A::
 BlockInput, On
 Sleep, PreClickDelay
