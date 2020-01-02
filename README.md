@@ -53,6 +53,7 @@ MediaKeys is an AutoHotkey script that creates some useful media key shortcuts (
 
 * v1. Initial release.
 * v2. Consolidated to a single script/executable. Added ability to adjust PreClickDelay, PostClickDelay and Step with hotkeys. Updated documentation.
+* v3. First release under new username WeedCandy (WeedRapist is a bit too edgy, sorry).
 
 # License
 
