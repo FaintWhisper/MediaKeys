@@ -35,33 +35,33 @@ SetDefaults()
 
 #If UseMediaKeys == true
 
-;previous song, Control+LeftBracket
-^[::
+;previous song, Alt+LeftArrow
+!Left::
 Send {Media_Prev}
 return
 
-;play/pause, Control+Backslash
-^\::
+;play/pause, Alt+Space
+!Space::
 Send {Media_Play_Pause}
 return
 
-;next song, Control+RightBracket
-^]::
+;next song, Alt+RightArrow
+!Right::
 Send {Media_Next}
 return
 
-;volume up, Control+RightApostrophe
-^'::
+;volume up, Alt+UpArrow
+!Up::
 Send {Volume_Up}
 return
 
-;volume down, Control+Semicolon
-^;::
+;volume down, Alt+DownArrow
+!Down::
 Send {Volume_Down}
 return
 
-;volume mute, Control+Shift+Semicolon
-^+;::
+;volume mute, Alt+M
+!m::
 Send {Volume_Mute}
 return
 
@@ -136,18 +136,9 @@ Sleep, PreClickDelay
 Click, Right
 Sleep, PostClickDelay
 Send, {Down}
-Send, {Enter}
-BlockInput, Off
-return
-
-;Spotify: removes song under mouse cursor from queue when Control+A is pressed
-^A::
-BlockInput, On
-Sleep, PreClickDelay
-Click, Right
-Sleep, PostClickDelay
-Send, {Up}
-Send, {Up}
+Send, {Down}
+Send, {Down}
+Send, {Down}
 Send, {Enter}
 BlockInput, Off
 return
